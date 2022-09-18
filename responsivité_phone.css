@@ -1,0 +1,272 @@
+/* la gestion de la responsivité de la page d'acceuil  */
+/* commencons par la premiere partie du footer */
+*
+{
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.body_responsive
+{
+    width: auto;
+}
+#footer
+{
+    width: auto;
+    max-width: 350px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.foter1
+{
+    width: auto;
+    height:200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 1px solid rgb(122, 35, 35); */
+}
+
+.footera1
+{
+    width: auto;
+    text-align: center;
+    height: 20px;
+    color: rgba(203, 199, 199, 0.602);
+    font-size: 1em;
+    /* border:1px solid rgb(122, 35, 35) ; */
+   
+}
+.footera2
+{
+    display: flex;
+    height: 40px;
+    /* border:1px solid rgb(122, 35, 35) ; */
+    justify-content: space-around;
+
+    
+}
+.footera3
+{
+    height: 40px;
+    /* border:1px solid rgb(122, 35, 35) ; */
+   
+}
+.div_icon
+{
+    /* border: 1px solid white; */
+    text-align: center;
+    height: 40px;
+}
+.icon
+{
+    font-size: 40px;
+    color:rgba(203, 199, 199, 0.602);
+}
+.couleur_liens
+{
+    color: rgba(203, 199, 199, 0.602);
+    text-decoration: none; 
+}
+.couleur_footera3
+{
+    font-size: 1em;
+}
+/* la deucxieme partie du footer */
+.foter3
+{
+    width: auto;
+    
+
+
+}
+
+#titre3
+{
+    font-family: '3dumbregular','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: auto;
+    text-align: center;
+    height: 20px;
+    color: rgba(203, 199, 199, 0.602);
+    font-size: 1em;
+    /* border:1px solid rgb(122, 35, 35) ; */
+   
+
+}
+.form1
+{
+    
+	width: 160px;
+    height: 30px;
+	margin-top: 10px;
+	border-radius: 5px;
+	border: 1px solid white;
+	opacity: 0.5;
+}
+#form_zone
+{
+   
+    
+    text-align: center;
+    
+}
+textarea
+{
+    margin-top: -10px;
+	width: auto;
+    min-width: 300px;
+	height: 70px;
+	margin-top:40px;
+	opacity: 0.5;
+	border-radius: 5px;
+    margin-bottom: 20px;
+    
+    
+
+}
+.margin_top_send
+{
+    margin-top: 20px;
+}
+.send
+{
+    margin: auto;
+    background-color: rgba(126, 122, 122, 0.973);
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    padding-top:5px;
+    /* box-shadow: 5px 5px 5px rgba(203, 199, 199, 0.602); */
+      
+}
+#titre3
+{
+    color:  rgba(203, 199, 199, 0.602);
+    margin-left:110px;
+    margin-top: 0px;
+}
+/* Le corps de la page */
+.cadre
+{
+    height: 1500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    align-items: center;
+    background: white;
+}
+.link_daily_search
+{
+    width: auto;
+    font-size: 0.9em;
+    margin-left: 7px;
+    margin-bottom: 10px;
+}
+.competences_web
+{
+     box-shadow: 10px 10px 20px rgb(31, 28, 28);
+}
+.competences_programmation
+{ box-shadow: 10px 10px 20px rgb(31, 28, 28);
+    
+}
+.generalite
+{
+     box-shadow: 10px 10px 20px rgb(31, 28, 28);
+    }
+.logiciels
+{ 
+    box-shadow: 10px 10px 20px rgb(31, 28, 28);
+}
+/* le texre et l'image d'en haut  */
+.texte
+{
+    width: auto;
+    max-width: 350px;
+    text-align: justify;
+    margin: auto;
+    
+}
+.titre1,.titre2,.titre3
+{
+    width: auto;
+}
+#background
+{
+    width: auto;
+    height: 200px;
+    background: url(D:/Developpement_web/Mon_PortFolio/images/pexels_cottonbro2.jpg) fixed no-repeat;
+}
+/* le plus dur  a mon humble avis la gestion deu menu  */
+#div_entete
+{
+    width: auto;
+    display: none;
+    
+}
+/* bref nois y reviendrions avec une gestion nav un peu plus téléphonique avec javascript  */
+/* passons a la gestion du corps sur les autres paragraphes */
+article
+{
+    width: auto;
+    max-width: 350px;
+    font-size: 0.8em;
+    margin-left:0px ;
+    text-align: justify;
+    
+}
+
+h1
+{
+    width: auto;
+    font-size: 1.3em;
+    max-width: 340px;
+    
+}h2
+{
+    width: auto;
+    font-size: 1em;
+    
+}h3
+{
+    width: auto;
+    font-size: 1em;
+    margin-left: 15px;
+}h4
+{
+    width: auto;
+    font-size: 1.2em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}h5
+{
+    width: auto;
+    font-size: 1em;
+}
+.pre
+{
+    max-width: 340px;
+    height: auto;
+    font-size: 0.8em;
+    margin: 5px 0px 5px 0px;
+    white-space: pre;
+    padding: 0px;
+}
+.pre_code_no_large
+{
+    max-width: 340px;
+    height: auto;
+    font-size: 0.8em;
+    margin: 5px 0px 5px 0px;
+    white-space: pre;
+    padding: 0px;
+}
+/* .pre_dimensions
+{
+    height: 30px;
+} */

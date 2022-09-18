@@ -1,0 +1,325 @@
+*
+{
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.nav/* pour mettre les liste en formes */
+{
+    list-style: none;
+    margin-left: 0px;
+}
+#div_entete
+{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.bloc_page
+{
+    margin-top: 100px;
+}
+#entête
+{
+    display: flex;
+    justify-content: space-between;  
+}
+.liens
+{
+    margin: 3px;
+    padding: 5px;
+    border-top: 1px solid rgba(203, 199, 199, 0.602);    
+}
+.bloc_nav
+{
+    width: 20%;
+    height: 60px;
+    overflow: hidden;
+    border: 1px solid rgba(203, 199, 199, 0.602);
+    background-color: rgb(19, 15, 15);  
+}
+.bloc_nav:hover
+{
+    height: 120px;
+}
+
+.bloc_nav1
+{
+    width: 20%;
+    height: 60px;
+    overflow: hidden;
+    border: 1px solid rgba(203, 199, 199, 0.602);
+    background-color: rgb(19, 15, 15);
+}
+.bloc_nav1:hover
+{
+    height: 200px;
+}
+
+.bloc_nav2
+{
+    height: 60px;
+    overflow: hidden;
+    width: 20%;
+    border: 1px solid rgba(203, 199, 199, 0.602);
+    background-color: rgb(19, 15, 15);
+}
+.bloc_nav2:hover
+{
+    height: 150px;
+}
+
+.bloc_nav3
+{
+    height: 60px;
+    overflow: hidden;
+    width: 20%;
+    border: 1px solid rgba(203, 199, 199, 0.602);
+    background-color: rgb(19, 15, 15);
+}
+
+.bloc_nav3:hover
+{
+    height: 120px;
+}
+
+.bloc_nav4
+{
+    height: 60px;
+    overflow: hidden;
+    width: 20%;
+    border: 1px solid rgba(203, 199, 199, 0.602);
+    background-color: rgb(19, 15, 15);
+}
+.bloc_nav4:hover
+{
+    height: 150px;
+}
+.formedesentete
+{
+    
+    color: rgba(203, 199, 199, 0.602);
+    text-decoration: none;
+    height: 60px;
+    text-align: center;
+    padding-top: 10px;
+    
+    
+}
+.couleur_liens
+{
+    color: rgba(203, 199, 199, 0.602);
+    text-decoration: none; 
+}
+/* pied de page */
+
+#footer
+{
+    height: 400px;
+    background-color:rgb(10, 5, 5);
+    display: flex;
+    justify-content: space-between;
+}
+.foter1
+{
+    width: auto;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.footera1
+{
+    height: 70px;
+    color: rgba(203, 199, 199, 0.602);
+    font-size: 2.3em;
+    margin-top: -22px;
+    padding-left: 40px;
+}
+.footera2
+{
+    display: flex;
+    height: 100px;
+    justify-content: space-around;
+    width: 100%;
+
+}
+.footera3
+{
+    height: 70px;
+   
+}
+.couleur_footera3
+{
+    font-size: 1.5em;
+}
+
+.foter3
+{
+    width: 50%;
+}
+#form
+{
+    display: flex;
+    justify-content: space-between;
+}
+.form1
+{
+	width: 240px;
+    height: 30px;
+	margin-top: 10px;
+	border-radius: 5px;
+	border: 1px solid white;
+	opacity: 0.5;
+}
+#form_zone
+{
+   
+    
+    text-align: center;
+    
+}
+textarea
+{
+	width: 500px;
+	height: 100px;
+	margin-top:40px;
+	opacity: 0.5;
+	border-radius: 5px;
+    margin-bottom: 20px;
+}
+.send
+{
+    margin: auto;
+    background-color: rgba(126, 122, 122, 0.973);
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    padding-top:5px;
+    
+}
+#titre3
+{
+    color:  rgba(203, 199, 199, 0.602);
+    margin-left:110px;
+    margin-top: 0px;
+    text-align: center;
+}
+/* ccors de la pge */
+.titre1
+{
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    font-family: '3dumbregular','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px;
+    color:  rgba(45, 28, 195, 0.957);
+}
+
+.titre2
+{
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    color:  rgba(45, 28, 195, 0.957);
+    font-family: '3dumbregular','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.flotant
+{
+   text-align: center;
+}
+
+.texte
+{
+    width: 800px;
+    text-align: justify;
+    margin: auto;
+}
+
+.cadre
+{
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    background: url(D:/developpement_web/Mon_PortFolio/images/pexels_etude3.1.jpg) fixed;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.competences_programmation
+{
+    width: 300px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.generalite
+{
+    width: 300px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.logiciels
+{
+    width: 300px;
+    border: 1px solid black;
+    text-align: center;
+}
+.pre
+{
+    border: 1px black solid;
+    width: 800px;
+    color:  rgba(203, 199, 199, 0.602);
+    margin: auto;
+    background-color:rgba(19, 15, 15, 0.899); ;
+    text-align: left;
+    border-radius: 10px;
+    white-space: nowrap;
+    padding: 10px 10px 10px 20px;
+    margin: 10px 0px 10px 0px;
+    
+}
+.pre_code_no_large
+{
+    border: 1px black solid;
+    width: 800px;
+    color:  rgba(203, 199, 199, 0.602);
+    margin: auto;
+    background-color:rgba(19, 15, 15, 0.899); ;
+    text-align: left;
+    border-radius: 10px;
+    white-space: pre;
+    padding: 10px 10px 10px 20px;
+    margin: 10px 0px 10px 0px;
+    
+}
+.link_daily_search
+{
+
+    width: 100%;
+    text-align: left;
+    margin-left: 50px;
+    
+}
+/*.pre_dimensions
+{
+    height: 50px;
+}*/
+
+.alinea
+{
+    padding-left: 25px ;
+}
+
+#background
+{
+    background: url(D:/developpement_web/Mon_PortFolio/images/pexels_etude.jpg) fixed;
+    width: 100%;
+    height: 500px;
+    margin-top: 60px;
+}

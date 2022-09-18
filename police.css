@@ -1,0 +1,45 @@
+@font-face {
+    font-family: '3dumbregular';
+    src: url('3Dumb-webfont.eot');
+    src: url('3Dumb-webfont.eot?#iefix') format('embedded-opentype'),
+         url('3Dumb-webfont.woff2') format('woff2'),
+         url('3Dumb-webfont.woff') format('woff'),
+         url('3Dumb-webfont.ttf') format('truetype'),
+         url('3Dumb-webfont.svg#3dumbregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'comic_reliefregular';
+    src: url('ComicRelief-webfont.eot');
+    src: url('ComicRelief-webfont.eot?#iefix') format('embedded-opentype'),
+         url('ComicRelief-webfont.woff2') format('woff2'),
+          url('ComicRelief-webfont.woff') format('woff'),
+         url('ComicRelief-webfont.ttf') format('truetype'),
+         url('ComicRelief-webfont.svg#comic_reliefregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+h3,h1
+{
+    width: auto;
+    margin: 10px 100px 10px 50px;
+    font-family: '3dumbregular','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgba(45, 28, 195, 0.957);
+    /* border: 1px solid black; */
+}
+h2,h4,h5
+{
+    width: auto;
+    /* border: 1px solid black; */
+}
+
+.icon
+{
+    width: 70px;
+    height: 70px;
+    
+}
